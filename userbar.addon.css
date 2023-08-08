@@ -1,0 +1,10 @@
+.membersWrap-3NUR2t {
+    transition-duration: var(--transition-time);
+    min-width: unset;
+    justify-content: unset;
+    width: var(--hidden-user-width);
+}
+
+.membersWrap-3NUR2t:hover {
+    width: var(--user-width);
+}
