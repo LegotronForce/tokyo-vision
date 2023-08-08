@@ -2,7 +2,7 @@
  * @name TokyoVision
  * @description A combination of Tokyo-Night and ClearVision. Special thanks to both of the creators of them <3
  * @author Nostalgia3
- * @version 1.0.2
+ * @version 2.0.2
  * @authorId 557696022004891689
 */
 
@@ -13,14 +13,15 @@
 @import url("https://dyzean.github.io/Tokyo-Night/addons/square-avatar.css");
 @import url("https://dyzean.github.io/Tokyo-Night/addons/monospace-fonts.css");
 
+/* TokyoVision Addons */
+
+/* Makes the member list smaller (and removes the button show member list button) */
+@import url("https://raw.githubusercontent.com/LegotronForce/tokyo-vision/main/userbar.addon.css");
+
 /* ==== Discord Variables ==== */
 .theme-dark {
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
-
-    --modal-footer-background: #14141f;
-    --modal-background: #1a1b26;
-    --modal-popup-border: #434461;
 
     --text-normal: #b1bae6;
     --text-muted: #565f89;
@@ -62,6 +63,11 @@
     --danger-color: rgb(187, 88, 88);
 
     --avatar-radius: 10px;
+
+    --hidden-user-width: 60px;
+    --user-width: 240px;
+
+    --transition-time: 400ms;
 }
 
 .typeWindows-2-g3UY {
@@ -128,18 +134,4 @@
 /* repairs left shift */
 .cozy-VmLDNB .headerText-2z4IhQ>.username-h_Y3Us {
     margin-left: 3px;
-}
-
-.buttons-uaqb-5 {
-    opacity: 1;
-}
-
-.username-h_Y3Us {
-    margin-right: 3px;
-}
-
-/* change the link opening prompt */
-.linkCalloutContainer-1CixBe {
-    border: 1px solid var(--modal-popup-border);
-    background: var(--channeltextarea-background);
 }
