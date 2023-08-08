@@ -8,3 +8,8 @@
 .membersWrap-3NUR2t:hover {
     width: var(--user-width);
 }
+
+/* Hide the "Hide Member List" button, since yes :) */
+.toolbar-3_r2xA>.iconWrapper-2awDjA.selected-29KTGM[aria-label="Hide Member List"] {
+    display: none;
+}
