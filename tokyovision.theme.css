@@ -153,3 +153,8 @@
     border: 1px solid var(--modal-popup-border);
     background: var(--channeltextarea-background);
 }
+
+/* change the background for app directory */
+.directoryContainer-z-0pgp {
+    background: var(--background-primary) !important;
+}
