@@ -135,3 +135,17 @@
 .cozy-VmLDNB .headerText-2z4IhQ>.username-h_Y3Us {
     margin-left: 3px;
 }
+
+.buttons-uaqb-5 {
+    opacity: 1;
+}
+
+.username-h_Y3Us {
+    margin-right: 3px;
+}
+
+/* change the link opening prompt */
+.linkCalloutContainer-1CixBe {
+    border: 1px solid var(--modal-popup-border);
+    background: var(--channeltextarea-background);
+}
