@@ -18,6 +18,10 @@
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
 
+    --modal-footer-background: #14141f;
+    --modal-background: #1a1b26;
+    --modal-popup-border: #434461;
+
     --text-normal: #b1bae6;
     --text-muted: #565f89;
     --interactive-normal: #5f647e;
@@ -132,4 +136,10 @@
 
 .username-h_Y3Us {
     margin-right: 3px;
+}
+
+/* change the link opening prompt */
+.linkCalloutContainer-1CixBe {
+    border: 1px solid var(--modal-popup-border);
+    background: var(--channeltextarea-background);
 }
