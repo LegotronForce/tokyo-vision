@@ -120,8 +120,7 @@
     background: var(--danger-color)
 }
 
-/* Cozy Mode */
-.cozy-VmLDNB .headerText-2z4IhQ>.username-h_Y3Us::before {
+.username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P::before {
     content: '';
     width: calc(100% + 7px);
     height: 100%;
